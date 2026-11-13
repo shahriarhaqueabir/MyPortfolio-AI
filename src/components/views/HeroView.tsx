@@ -190,7 +190,7 @@ export default function HeroView({ setView, onAiQuery }: { setView: (v: ViewKey)
           >
             <div className="border border-(--accent)/20 bg-(--accent)/10 px-6 py-5 rounded-sm">
               <p className="font-mono text-xs uppercase tracking-[0.18em] text-(--text-muted) leading-relaxed">
-                <span className="text-(--accent)">AI</span> Powered by Qwen2.5-Coder &middot; Runs locally in your browser &middot; No data sent
+                <span className="text-(--accent)">AI</span> Powered by Qwen2.5-Instruct &middot; Runs locally in your browser &middot; No data sent
               </p>
               <p className="mt-2 font-mono text-[9px] uppercase tracking-[0.16em] text-(--text-muted)/80">
                 Open the guide panel below and enable Qwen for interactive conversations, or ask the fallback guide without downloading a model.

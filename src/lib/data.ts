@@ -1,7 +1,7 @@
 export const CONFIG = {
   name: "Shahriar Haque Abir",
   nameHL: "Shahriar",
-  tagline: "Technical Project & Implementation Specialist | Solutions Engineer | Cybersecurity",
+  tagline: "Technical Operations Engineer | Integration Engineer | Application Support Engineer",
   taglineContext: "Enterprise SaaS · Project Delivery · Security Operations · AI Automation",
   taglines: [
     "Technical Project Management & Delivery",

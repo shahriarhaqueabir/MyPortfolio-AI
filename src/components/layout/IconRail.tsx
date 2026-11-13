@@ -47,7 +47,7 @@ export default function IconRail({ activeView, onNavigate, aiReady, aiPaused, ai
         title="Home"
         className="shine-surface flex h-10 w-10 items-center justify-center rounded-sm border border-(--border) bg-(--text) text-(--bg) font-syne text-xs font-black"
       >
-        H
+        SHA
       </button>
       <motion.div
         className="h-2 w-2 rounded-full transition-colors duration-200"
