@@ -1,18 +1,20 @@
-# Shahriar Haque Abir — AI-Augmented Web Portfolio
-2: 
-3: **[Live Demo](https://shahriarhaqueabirportfolio.vercel.app)** | **[LinkedIn](https://www.linkedin.com/in/shahriarhaqueabir)** | **[GitHub](https://github.com/shahriarhaqueabir)**
-4: 
-5: [![Stack: Next.js 16.2.12](https://img.shields.io/badge/Next.js-16.2.12-000?logo=next.js&logoColor=fff)](https://nextjs.org)
-6: [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=fff)](https://www.typescriptlang.org)
-7: [![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=fff)](https://tailwindcss.com)
-8: [![Motion](https://img.shields.io/badge/Motion-12-EA4C89?logo=framer&logoColor=fff)](https://motion.dev)
-9: [![WebLLM](https://img.shields.io/badge/WebLLM-0.2.83-4F46E5?logo=llama&logoColor=fff)](https://github.com/mlc-ai/web-llm)
-10: [![ElevenLabs](https://img.shields.io/badge/TTS-ElevenLabs-000?logo=elevenlabs&logoColor=fff)](https://elevenlabs.io)
-11: [![Playwright](https://img.shields.io/badge/Tests-Playwright-45BA4B?logo=playwright&logoColor=fff)](https://playwright.dev)
-12: [![Vercel](https://img.shields.io/badge/Deploy-Vercel-000?logo=vercel&logoColor=fff)](https://vercel.com)
-13: ![CI](https://github.com/shahriarhaqueabir/ShahriarHaqueAbirPortfolio/actions/workflows/ci.yml/badge.svg)
-14: 
-15: > **Berlin-based Technical Operations & Integration Specialist.** Multi-view interactive portfolio featuring a browser-native AI guide (Qwen2.5-Instruct) and voice interaction. Built with Next.js 16.2.12, React 19, and Tailwind CSS v4. Runs client-side via WebLLM/WebGPU.
+**Berlin-based Technical Operations & Integration Specialist.**  Web Portfolio
+**[LinkedIn](https://www.linkedin.com/in/shahriarhaqueabir)**
+**[Live Demo](https://shahriarhaqueabirportfolio.vercel.app)**
+**[GitHub](https://github.com/shahriarhaqueabir)**
+
+[![Stack: Next.js 16.2.12](https://img.shields.io/badge/Next.js-16.2.12-000?logo=next.js&logoColor=fff)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=fff)](https://www.typescriptlang.org)
+[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=fff)](https://tailwindcss.com)
+[![Motion](https://img.shields.io/badge/Motion-12-EA4C89?logo=framer&logoColor=fff)](https://motion.dev)
+[![WebLLM](https://img.shields.io/badge/WebLLM-0.2.83-4F46E5?logo=llama&logoColor=fff)](https://github.com/mlc-ai/web-llm)
+[![ElevenLabs](https://img.shields.io/badge/TTS-ElevenLabs-000?logo=elevenlabs&logoColor=fff)](https://elevenlabs.io)
+[![Playwright](https://img.shields.io/badge/Tests-Playwright-45BA4B?logo=playwright&logoColor=fff)](https://playwright.dev)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-000?logo=vercel&logoColor=fff)](https://vercel.com)
+![CI](https://github.com/shahriarhaqueabir/ShahriarHaqueAbirPortfolio/actions/workflows/ci.yml/badge.svg)
+ 
+Multi-view interactive portfolio featuring a browser-native AI guide (Qwen2.5-Instruct) and voice interaction. 
+Built with Next.js 16.2.12, React 19, and Tailwind CSS v4. Runs client-side via WebLLM/WebGPU.
 
 ---
 
