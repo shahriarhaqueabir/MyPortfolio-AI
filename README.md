@@ -3,6 +3,7 @@
 <p align="center">
   <img src="MyPortfolio.jpg" alt="MyPortfolio-AI" width="400">
 </p>
+
 > **Berlin-based Technical Operations & Integration Specialist.** Multi-view
 > interactive portfolio featuring a browser-native AI guide (Qwen2.5-Instruct)
 > and voice interaction. Built with Next.js 16.2.12, React 19, Tailwind CSS v4.
