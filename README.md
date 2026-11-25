@@ -64,6 +64,18 @@ a dark terminal aesthetic. Built to show, not just tell. 🧠🎤
 
 ## 🏗️ Architecture — how the pieces talk
 
+```mermaid
+flowchart LR
+  User[User text/voice] --> Shell[PortfolioShell]
+  Shell --> Router[useCommandRouter]
+  Router -->|navigate| Views[7 portfolio views]
+  Router -->|question| Worker[usePortfolioWorker]
+  Worker -->|GPU available| LLM[WebLLM Worker Qwen2.5 1.5B]
+  Worker -->|fallback| Fallback[17-intent engine 0-5ms]
+  Shell --> STT[Web Speech STT]
+  Shell --> TTS[ElevenLabs proxy TTS]
+```
+
 ```text
 User input (text or voice)
         │
@@ -186,6 +198,29 @@ useCommandRouter ──► Is it a navigation command?
 | 📜 Scroll     | Lenis                             | Smooth scrolling        |
 | 🧪 E2E        | Playwright                        | Cross-browser testing   |
 | 🚢 Deploy     | Vercel                            | Edge + SSG              |
+
+## 🛠️ Provisioning
+
+```bash
+# Prereqs: Node.js 20+, npm
+git clone https://github.com/shahriarhaqueabir/MyPortfolio-AI.git
+cd MyPortfolio-AI
+npm install
+
+# Optional: voice out (ElevenLabs)
+# create .env with:
+# ELEVENLABS_API=sk_...
+```
+
+## ⚡ Quick command reference
+
+```bash
+npm run dev          # http://localhost:3000
+npm run build        # TS check + production build
+npx playwright test  # E2E (headless)
+npm run lint         # ESLint
+npm run format       # Prettier
+```
 
 ## 🚀 Getting started
 
