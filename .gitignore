@@ -79,3 +79,9 @@ ChatGPT Image*.png
 plans/2026-07-29-sprint-1-hardening.md
 # Playbook (private teaching material)
 docs/playbook*.md
+
+# Private modules (secrets, adapters, config - never committed)
+private/
+private/secrets/
+private/adapters/
+private/config/
