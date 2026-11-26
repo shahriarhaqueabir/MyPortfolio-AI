@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shahriarhaqueabir/ShahriarHaqueAbirPortfolio.git"
+    "url": "git+https://github.com/shahriarhaqueabir/MyPortfolio-AI.git"
   },
   "bugs": {
-    "url": "https://github.com/shahriarhaqueabir/ShahriarHaqueAbirPortfolio/issues"
+    "url": "https://github.com/shahriarhaqueabir/MyPortfolio-AI/issues"
   },
   "license": "MIT",
   "private": true,
