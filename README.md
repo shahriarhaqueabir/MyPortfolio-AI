@@ -4,7 +4,6 @@
   <img src="MyPortfolio.jpg" alt="MyPortfolio-AI" width="400">
 </p>
 
-> **Berlin-based Technical Operations & Integration Specialist.** Multi-view
 > interactive portfolio featuring a browser-native AI guide (Qwen2.5-Instruct)
 > and voice interaction. Built with Next.js 16.2.12, React 19, Tailwind CSS v4.
 > Runs client-side via WebLLM/WebGPU. 🧠
@@ -27,20 +26,22 @@
 
 ## Fun things you can do
 
-- Make your portfolio answer questions out loud - visitors ask, it speaks back
-- Turn on a local AI that runs on the visitor's GPU (no server bill)
-- Navigate your own site by voice: "show me your projects"
+- Make your portfolio feel alive.
+- Voice navigation within the Protfolio
+- Web-LLM AI that runs in visitor's browser with no costs
+- ElevenLabs compatible voice channel provides a seemless conversation
 
 ## 🎬 The story — why this exists
 
-A static portfolio is a brochure. This one is a _conversation_: a browser-native
-AI guide (Qwen2.5-Instruct 1.5B via WebLLM) answers questions about projects,
+A static portfolio is a brochure. Visitor's have to browse and scroll and search for information. That takes time.
+This portfolio is a _conversation_: a browser-native
+AI guided (Qwen2.5-Instruct 1.5B via WebLLM) answers questions about projects,
 skills, and experience — fully client-side, no model-serving API. Voice in
 (Web Speech API), voice out (ElevenLabs TTS). Seven views, orbital navigation,
-a dark terminal aesthetic. Built to show, not just tell. 🧠🎤
+a dark terminal aesthetic. Built for the modern world. 🧠🎤
 
-> 💡 **The one sentence that drove everything:** _A portfolio should answer
-> questions, not just display pages._
+> 💡 **The one sentence that drove everything:** _A portfolio should feel like
+> a conversation, not just display pages._
 
 ---
 
