@@ -49,3 +49,19 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
+
+          
+      # Upload to Gist for Shields.io Dynamic Endpoint
+      # Endpoint URL format: https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/USERNAME/GIST_ID/raw/badge.json
+      - name: Create Dynamic Badge JSON
+        uses: schneegans/dynamic-badges-action@v1.7.0
+        with:
+          auth: ${{ secrets.GIST_SECRET_TOKEN }} # Require a Personal Access Token with 'gist' scope
+          gistID: adbd0eaa95a15c5cfbc78a3d70a8f910
+          filename: badge.json
+          label: Custom Build
+          message: ${{ env.status }}
+          color: ${{ env.color }}
+          namedLogo: github
+
+
