@@ -9,7 +9,7 @@
 > and voice interaction. Built with Next.js 16.2.12, React 19, Tailwind CSS v4.
 > Runs client-side via WebLLM/WebGPU. 🧠
 
-[![CI](https://github.com/shahriarhaqueabir/ShahriarHaqueAbirPortfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/shahriarhaqueabir/ShahriarHaqueAbirPortfolio/actions/workflows/ci.yml)
+[![CI](https://github.com/shahriarhaqueabir/MyPortfolio-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/shahriarhaqueabir/MyPortfolio-AI/actions/workflows/ci.yml)
 [![Stack: Next.js 16.2.12](https://img.shields.io/badge/Next.js-16.2.12-000?logo=next.js&logoColor=fff)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=fff)](https://www.typescriptlang.org)
 [![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=fff)](https://tailwindcss.com)
