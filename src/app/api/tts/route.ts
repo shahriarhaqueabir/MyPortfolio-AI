@@ -48,10 +48,7 @@ export async function POST(request: NextRequest) {
 
     // Validate voice_id to prevent URL path manipulation in upstream request.
     // ElevenLabs voice IDs are expected to be short alphanumeric identifiers.
-    const safeVoiceId =
-      typeof voice_id === "string" && /^[A-Za-z0-9]{1,64}$/.test(voice_id)
-        ? voice_id
-        : DEFAULT_VOICE_ID;
+    const safeVoiceId = typeof voice_id === "string" && /^[A-Za-z0-9]{1,64}$/.test(voice_id) ? voice_id : DEFAULT_VOICE_ID;
 
     // Cap text to protect free-tier quota (~500 chars per request)
     const truncated = text.slice(0, 500);
