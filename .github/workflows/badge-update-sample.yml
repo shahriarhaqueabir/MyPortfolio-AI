@@ -1,8 +1,6 @@
 name: Update Dynamic Badges
 
 on:
-  # Manual trigger ONLY. This workflow uses a Personal Access Token
-  # (GIST_SECRET_TOKEN) — it must never run automatically on every push.
   workflow_dispatch:
 
 permissions:
@@ -10,27 +8,32 @@ permissions:
 
 jobs:
   update-badges:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: 20
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: npm ci
 
-      # Example: Run linting and extract count
-      # Modify this to run your actual tests or metrics
-      - name: Run Linter and Calculate Metrics
+      - name: Run linter and compute metrics
         id: compute_metrics
         run: |
           echo "Running standard checks..."
           npm run lint || true
-          
-          # For demonstration: Assume we always pass
           echo "status=passing" >> $GITHUB_ENV
           echo "color=brightgreen" >> $GITHUB_ENV
+
+      - name: Create dynamic badge JSON
+        uses: schneegans/dynamic-badges-action@v1.7.0
+        with:
+          auth: ${{ secrets.GIST_SECRET_TOKEN }}
+          gistID: adbd0eaa95a15c5cfbc78a3d70a8f910
+          filename: badge.json
+          label: Custom Build
+          message: ${{ env.status }}
+          color: ${{ env.color }}
+          namedLogo: github

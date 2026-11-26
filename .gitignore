@@ -70,7 +70,6 @@ pnpm-debug.log*
 
 # Public Assets - Allow CV but ignore other PDFs/Screenshots
 *.pdf
-!public/shahriar-haque-abir-cv.pdf
 ChatGPT Image*.png
 /.memory
 *.md
