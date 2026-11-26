@@ -143,7 +143,7 @@ Currently building toward cybersecurity operations — combining infrastructure 
       href: "https://github.com/shahriarhaqueabir/AI-Assisted-German-Law",
     },
     {
-      name: "ShahriarHaqueAbirPortfolio",
+      name: "MyPortfolio-AI",
       desc: "Personal portfolio site with in-browser AI, parallax animations, and a SPA-in-MPA architecture on Next.js 16.",
       context: "Wanted a portfolio that demonstrates both frontend craftsmanship and practical AI integration — not just a static resume site.",
       implementation:
@@ -152,7 +152,7 @@ Currently building toward cybersecurity operations — combining infrastructure 
       lessons:
         "WebLLM is powerful but the 1.5B model download is heavy — a pattern-matching fallback engine was essential for first-visit experience before the model loads. Voice input/output added unexpected engagement.",
       stack: ["Next.js", "React", "TypeScript", "Framer Motion", "WebLLM", "Tailwind CSS"],
-      href: "https://github.com/shahriarhaqueabir/ShahriarHaqueAbirPortfolio",
+      href: "https://github.com/shahriarhaqueabir/MyPortfolio-AI",
     },
   ],
   skills: [
